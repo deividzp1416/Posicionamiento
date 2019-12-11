@@ -1,0 +1,88 @@
+h1{
+    color: #68dd78;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(97, 64, 81);
+}
+#para1 {
+    text-align: center;
+    color: rgb(187, 231, 26);
+  }
+  *{
+    margin: auto;
+}
+
+p{
+    margin: 40px;
+    border: 2px solid rgb(0, 248, 248);
+    padding: 0px;
+}
+
+h1{
+    background-color:rgb(65, 187, 48);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(121, 35, 179);
+    text-align: center;
+}
+
+#miSuperTitulo{
+    font-size: 50px;
+    padding: 70px;
+}
+
+.hiper{
+    display: inline;
+    padding: 90px;
+    margin-bottom: 50px;
+}
+
+.imagenesIntro{
+    width: 210px;
+    display: block;
+    margin-top: 600px ;
+}
+
+.cuadro1{
+width: 190px;
+height:190px; 
+border: 2px solid black;
+padding: 2% ;
+background-color:rgba(7, 187, 103, 0.493);
+margin: 5% ;
+position: absolute ;
+right: 30px ;
+top: 10px
+}
+.cuadro2{
+width: 190px;
+height:50px; 
+border: 2px solid black;
+padding: 2% ;
+background-color: rgba(58, 37, 172, 0.445);
+margin: 5% ;
+position: fixed ;
+left: 2%;
+top: 10% 
+}
+.cuadro3{
+    width: 180px;
+    height: 60px;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgba(129, 25, 106, 0.5);
+    margin: 5%;  
+    
+    position: relative;
+    top: 40px;
+    right: 40px;
+}
