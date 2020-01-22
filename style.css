@@ -11,9 +11,12 @@ body{
     text-align: center;
     background-color: rgb(97, 64, 81);
 }
-#para1 {
+#para1:hover{
     text-align: center;
     color: rgb(187, 231, 26);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transform:skew(10deg)
   }
   *{
     margin: auto;
@@ -26,18 +29,13 @@ p{
 }
 
 h1{
-    background-color:rgb(65, 187, 48);
+    background-color:rgb(241, 219, 13);
     text-align: center;
 }
 
 body{
     background-color: rgb(121, 35, 179);
     text-align: center;
-}
-
-#miSuperTitulo{
-    font-size: 50px;
-    padding: 70px;
 }
 
 .hiper{
@@ -55,7 +53,7 @@ body{
 .cuadro1{
 width: 190px;
 height:190px; 
-border: 2px solid black;
+border: 2px solid rgb(255, 251, 0);
 padding: 2% ;
 background-color:rgba(7, 187, 103, 0.493);
 margin: 5% ;
@@ -66,7 +64,7 @@ top: 10px
 .cuadro2{
 width: 190px;
 height:50px; 
-border: 2px solid black;
+border: 2px solid rgb(251, 255, 0);
 padding: 2% ;
 background-color: rgba(58, 37, 172, 0.445);
 margin: 5% ;
@@ -77,7 +75,7 @@ top: 10%
 .cuadro3{
     width: 180px;
     height: 60px;
-    border: 2px solid black;
+    border: 2px solid rgb(251, 255, 0);
     padding: 2%;
     background-color: rgba(129, 25, 106, 0.5);
     margin: 5%;  
@@ -85,4 +83,21 @@ top: 10%
     position: relative;
     top: 40px;
     right: 40px;
+}
+#miImagen:hover{
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+    transform: rotateZ(-65deg) rotateY(50deg);
+    filter: blur(2px)
+}
+#miOtraIm:hover{
+    transition-duration: 1s;
+    transition-timing-function:linear;
+    filter: sepia(100%);
+    transform:skew(50deg)
+}
+#Angora:hover{
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    filter:invert(100%)
 }
